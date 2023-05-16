@@ -1,0 +1,492 @@
+@charset "utf-8";
+
+body {
+    color: #444;
+    margin: auto;
+    background: #bee0cc;
+}
+
+a {
+    /* text-decoration: none; */
+    color: #ea6090;
+    margin:0 30px;
+}
+
+p {
+    margin: 20px 0 5px 0;
+}
+
+label {
+    color: #ccaa6b;
+}
+
+.title {
+    color: #ea6090;
+    text-align: center;
+}
+
+.wrap {
+    padding: 10px 30px 10px 30px;
+}
+
+select {
+    height: 25px;
+}
+
+.section {
+    width: 600px;
+    margin: 40px auto 20px auto;
+    text-align: center;
+}
+
+.error-message {
+    color: white;
+    text-align: center;
+}
+
+.success-message {
+    color: orange;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn_login,
+.btn_logout,
+.btn_post,
+.btn_cancel,
+.btn_update,
+.btn_delete,
+.btn_return,
+.btn_signup {
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    background: orange;
+    border: 1px solid orange;
+    border-radius: 20px;
+    color: white;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.btn_return {
+    background: rebeccapurple;
+    border: 1px solid rebeccapurple;
+}
+
+/* index */
+#header {
+    background: #ea6090;
+    padding-top: 20px;
+}
+
+.site-ttl {
+    text-align: center;
+    margin-top: 0;
+}
+
+.site-ttl a {
+    color: white;
+}
+
+#header .inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+#header ul {
+    display: flex;
+    align-items: center;
+
+}
+
+#header li {
+    margin-right: 50px;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header .btn {
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    background: yellow;
+    border: yellow;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+#header .btn:nth-of-type(2) {
+    background: lightblue;
+    border: lightblue;
+}
+
+#header .btn a {
+    margin: 0;
+}
+
+.primary {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 30px auto;
+}
+
+#blog {
+    width: 650px;
+    background: white;
+    margin: auto auto 20px auto;
+}
+
+#blog .unit {
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 20px;
+    margin: 30px auto 0 auto;
+}
+
+#blog .first-row,
+#blog .posted-user,
+#blog .second-row {
+    display: flex;
+    align-items: center;
+}
+
+#blog .posted-user {
+    width: 250px;
+}
+
+#blog .posted-user img {
+    width: 50px;
+}
+
+#blog .posted-user .name {
+    width: 185px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 0 15px;
+}
+
+#blog .date {
+    display: flex;
+    font-size: 12px;
+    margin: 0;
+}
+
+#blog .date p {
+    margin: 0;
+}
+
+#blog .posted-content {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#blog .second-row {
+    width: 330px;
+    justify-content: space-between;
+}
+
+#blog .title {
+    width: 220px;
+    text-align: left;
+}
+
+#blog .category {
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #bee0cc;
+    border-radius: 5px;
+    background: #bee0cc;
+    color: #ea6090;
+    margin: 0;
+}
+
+#blog .text {
+    margin-top: 5px;
+}
+
+.posted-img {
+    width: 120px;
+}
+
+.posted-img img{
+    width: 100%;
+}
+
+#side {
+    width: 200px;
+    margin-left: 50px;
+}
+
+.article {
+    margin-left: 10px;
+}
+
+.article .title {
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.article .title img {
+    width: 20px;
+    height: 20px;
+}
+
+.secondary {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.secondary p {
+    display: inline-block;
+}
+
+.secondary p,
+.secondary a {
+    margin: 0 10px;
+}
+
+#footer {
+    height: 30px;
+    background: white;
+    text-align: center;
+    color: #ea6090;
+}
+
+/* admin */
+#my-page {
+    width: 650px;
+    margin: auto auto 70px auto;
+    text-align: right;
+}
+
+#my-page .inner {
+    width: 600px;
+    height: 500px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#my-page .blog-post {
+    width: 300px;
+    margin-bottom: 80px;
+}
+
+#my-page .blog-post select {
+    display: block;
+    margin-bottom: 30px;
+}
+
+#my-page .user {
+    width:200px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#my-page .user .intro  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding:0 30px 30px 30px;
+}
+
+#my-page .img {
+    width: 150px;
+    margin-top: 30px;
+}
+
+#my-page .img  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#my-page .name {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#my-page .name p:nth-of-type(2) {
+    margin-top: 0;
+}
+
+#my-page .logout {
+    width: 550px;
+    margin: 0 0 40px auto;
+}
+
+.btn_logout {
+    background: blue;
+    border: 1px solid blue;
+}
+
+#blog .admin-wrap {
+    width: 580px;
+    display: flex;
+    margin: auto;
+}
+
+#blog .admin-unit {
+    justify-content: flex-start;
+}
+
+#blog .admin-inner {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+#blog .admin-btn {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 30px;
+}
+
+.btn-e,
+.btn-d {
+    font-size: 17px;
+    color: orange;
+    margin-top: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.btn-d {
+    color: green;
+}
+
+#blog .display {
+    display: block;
+}
+
+/* signup_form */
+form {
+    width: 300px;
+    text-align: left;
+    margin: auto;
+}
+
+form p {
+    color: #ccaa6b;
+    text-align: left;
+}
+
+.note {
+    color: #af9dc0;
+    margin: 0 0 0 10px;
+}
+
+form .file {
+    text-align: left;
+    margin-top: 20px;
+}
+
+form .file-up {
+    margin-top: 10px;
+}
+
+.btn_signup {
+    background: lightskyblue;
+    border: lightskyblue;
+}
+
+.top {
+    text-align: left;
+    font-size: 20px;
+    margin: 30px 0 0 30px;
+}
+
+/* login_form */
+.btn_login {
+    background: #fae200;
+    border: 1px #fae200;
+    font-weight: bold;
+}
+
+/* logout */
+.logout .error-message,
+.logout .success-message {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.logout a {
+    text-decoration: underline;
+    color: #ea6090;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* edit */
+.edit-img {
+    display: flex;
+}
+
+.edit-img .now img {
+    width: 120px;
+}
+
+.change {
+    margin: 20px 0 0 30px;
+}
+
+.chenge label {
+    margin-bottom: 5px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn_cancel {
+    background: aqua;
+    border: 1px solid aqua;
+    margin-right: 30px;
+}
+
+/* delete */
+.confirm {
+    margin: 50px auto 50px auto;
+}
+
+.delete {
+    width: 600px;
+}
+
+.delete-inner {
+    margin: 10px 0;
+}
+
+.delete p {
+    color: #444;
+}
+
+.delete-ttl {
+    margin: 0;
+}
+
+.btn_delete {
+    background: green;
+    border: 1px solid green;
+}
+
+
+
